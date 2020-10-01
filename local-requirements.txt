@@ -1,0 +1,4 @@
+# included in aws env, only needed if installing elsewhere
+
+boto3
+jupyterlab

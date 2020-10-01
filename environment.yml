@@ -1,0 +1,38 @@
+# usage: 
+# 1. run `conda env update`
+# 2. run `jupyter labextension install @jupyter-widgets/jupyterlab-manager`
+# 3. run `jupyter labextension install ipysheet`
+# 4. refresh page to activate widgets
+
+name: playground
+dependencies:
+  - python=3.8
+  - pip
+  - ipython
+  - ipykernel
+  - numpy
+  - pandas
+
+  - graphviz
+  
+  - nodejs
+  - ipywidgets
+
+  - matplotlib
+
+  - pytest
+  
+  - pip:
+    - ipysheet
+    - ipympl
+    - graphviz  # for some reason, need to install graphviz in conda AND in pip
+
+    - jira
+    
+    - awscli
+    - boto3
+    - pynamodb
+    - pexpect
+    
+
+    - mistletoe @ git+https://github.com/andrew-lee-zuora/mistletoe@importable-contrib
